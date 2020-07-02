@@ -1,26 +1,85 @@
 body {
     background-color: rgb(81, 178, 198);
     background-color: #51B2C6;
+
+}
+.background {
+    background-image: url(/img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);      
+    height: 100vh;
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin: 80px calc((100% - 800px) / 2) 0;
+    /* margin: 80px calc((100% - 800px) / 2) 0; */
+    position: absolute;
+    /* top: 70px;
+    left: calc((100% - 800px) / 2); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
     .container > .left {
         display: inline-block;
         width: 40%;
         float: left;
         background-color: #027BBD;
+
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
+        left: 0;
+
+        /* background-image: url(/img/mountain.png);
+        background-repeat: no-repeat;
+        background-size: cover;         */
     }
+        .left > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* z-index: -1; */
+        }
+        .main-title {
+            position: relative;
+            z-index: 1;
+            /* position: absolute;
+            left: 20px;
+            right: 20px;
+            top: 20px; */
+            padding: 20px;
+            color: white;
+            font-weight: normal;
+            /* text-align: center; */
+        }
+        .footer {
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            right: 20px;
+            color: wheat;
+        }
+            .footer > a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .footer > span {
+
+            }
 
     
     .container > .right {
         display: inline-block;
         width: 60%;
         padding: 80px;
-        float: left;
+        float: right;
         background-color: #fff;
 
         position: relative;
@@ -69,3 +128,6 @@ body {
             text-decoration: none;
             font-weight: bold;
         }
+            input:focus {
+                background-color: violet;
+            }
