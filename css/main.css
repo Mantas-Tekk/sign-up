@@ -4,6 +4,8 @@ body {
 
 }
 .background {
+    display: inline-block;
+    float: left;
     background-image: url(/img/mountain.png);
     background-repeat: no-repeat;
     background-size: cover;
