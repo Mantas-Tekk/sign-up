@@ -6,7 +6,7 @@
 # Sign up
 ### 17 group - Sign up
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
+This project is for educational porpuses only. Pull request are welcome! Thank you for your cooperation!
 
 Site published at https://tekknow69.github.io/sign-up/
 
