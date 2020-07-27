@@ -4,23 +4,18 @@ body {
 
 }
 .background {
-    display: inline-block;
-    float: left;
-    background-image: url(/img/mountain.png);
+    height: 100vh;
+    background-image: url(../img/mountain.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(10px);      
-    height: 100vh;
+    filter: blur(20px);
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    /* margin: 80px calc((100% - 800px) / 2) 0; */
     position: absolute;
-    /* top: 70px;
-    left: calc((100% - 800px) / 2); */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,10 +30,6 @@ body {
         top: 30px;
         bottom: 30px;
         left: 0;
-
-        /* background-image: url(/img/mountain.png);
-        background-repeat: no-repeat;
-        background-size: cover;         */
     }
         .left > img {
             position: absolute;
@@ -46,19 +37,13 @@ body {
             left: 0;
             width: 100%;
             height: 100%;
-            /* z-index: -1; */
         }
         .main-title {
             position: relative;
             z-index: 1;
-            /* position: absolute;
-            left: 20px;
-            right: 20px;
-            top: 20px; */
             padding: 20px;
             color: white;
             font-weight: normal;
-            /* text-align: center; */
         }
         .footer {
             position: absolute;
@@ -71,9 +56,13 @@ body {
                 text-decoration: none;
                 color: white;
             }
+            .footer > a:hover {
+                text-decoration: underline;
+                color: white;
+            }
 
             .footer > span {
-
+                color: white;
             }
 
     
@@ -83,9 +72,12 @@ body {
         padding: 80px;
         float: right;
         background-color: #fff;
-
         position: relative;
     }
+        .right a:hover {
+            text-decoration: underline;
+        }
+
         .close {
             display: inline-block;
             width: 80px;
@@ -94,6 +86,10 @@ body {
             position: absolute;
             top: 0;
             right: 0;
+        }
+
+        .close:hover .line{
+            background-color: red;
         }
             .close > .line {
                 display: inline-block;
@@ -105,31 +101,12 @@ body {
             .close > .line:first-of-type {
                 transform: rotate(45deg);
                 top: 24px;
-                left: 31px;
+                left: 28px;
                 transform-origin: top left;
             }
             .close > .line:last-of-type {
                 transform: rotate(-45deg);
                 transform-origin: bottom left;
                 top: 52px;
-                left: 30px;
-            }
-        .form span,
-        .form a {
-            display: inline-block;
-            padding: 10px;
-            float: left;
-            font-size: 17px;
-            line-height: 20px;
-        }
-        .form span {
-            margin-left: 10px;
-        }
-        .form a {
-            color: #005DD8;
-            text-decoration: none;
-            font-weight: bold;
-        }
-            input:focus {
-                background-color: violet;
+                left: 28px;
             }
