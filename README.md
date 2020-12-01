@@ -1,7 +1,7 @@
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Tekknow69/LICENSE.md)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/tekknow69/LICENSE.md)
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![HitCount](http://hits.dwyl.com/TekkNow/sign-up.svg)](http://hits.dwyl.com/TekkNow/sign-up)
+[![HitCount](http://hits.dwyl.com/tekknow69/sign-up.svg)](http://hits.dwyl.com/tekknow69/sign-up)
 
 # Sign up
 ### 17 group - Sign up
